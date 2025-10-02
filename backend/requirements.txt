@@ -1,0 +1,6 @@
+Flask
+flask_cors
+langchain_community
+protobuf
+python-dotenv
+google-generativeai

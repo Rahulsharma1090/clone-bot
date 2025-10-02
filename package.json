@@ -1,0 +1,13 @@
+{
+  "name": "agent",
+  "version": "1.0.0",
+  "description": "A full-stack agent powered by Flask (backend) and React (frontend)",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && pip install -r requirements.txt && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "python backend/app.py",
+    "dev": "npm start --prefix frontend"
+  },
+  "author": "Rahul Sharma",
+  "license": "ISC"
+}
